@@ -1,0 +1,180 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+}
+h2, h3, h4 {
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+.clearfix{
+  clear: both;
+}
+nav{
+  background-color: #C12127;
+  color: rgba(255,255,255, 0.8);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  height: 100%;
+}
+nav a{
+  color: rgba(255,255,255, 0.8);
+  text-decoration: none;
+}
+.top-left{
+  display: inline;
+  margin: 0 10px 0 10px;
+}
+.top-links{
+  float: right;
+  padding: 0;
+}
+.top-links li{
+  display: inline-block;
+  margin: 0 10px 0 10px;
+}
+header{
+  color: white;
+  background-color: rgb(32, 101, 136);
+  width: 100%;
+  background: url('./images/city-scape.svg') no-repeat 0 0 cover;
+}
+.search-container{
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  height: 40px;
+  width: 100%;
+}
+
+header .search-container .search-bar{
+  background-color: rgb(31, 82, 111);
+  border: 1px solid rgb(204, 204, 204);
+  width: 74%;
+}
+header .search-container .npm-logo{
+  width: 9%;
+}
+header .search-container .sign-up{
+  width: 7%;
+}
+.header-link{
+  color:white;
+  text-decoration: none;
+}
+header .search-container .bear-logo{
+  width: 1%;
+}
+header .search-container  .bear-logo{
+  margin-right: 5px;
+}
+.container{
+  width: 475px;
+  margin: 0 auto;
+}
+header > .container >.header-item{
+  margin: 20 0 20 0;
+}
+.btn{
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 5px 0 5px 0;
+  width: 150px;
+  border-radius: 12px;
+  text-align: center;
+}
+.sign-up-btn{
+  background: rgb(240, 146, 51);
+}
+.collab-background{
+  background: rgb(39, 53, 71);
+  padding: 10px 0 10px 0;
+  height: 100%;
+}
+.div-collaboration{
+  width:1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 400px;
+}
+.collab-image{
+  width: 400px;
+}
+.collab-content{
+  color:white;
+  width: 475px
+}
+
+.orgs-btn{
+  background: rgb(203, 56, 55);
+}
+.learn-orgs{
+  color: white;
+  text-decoration: none;
+}
+#what-is{
+  position: relative;
+  background: url('./images/forklift.svg');
+  background-position: 0,0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  width: 100%;
+}
+.what-is-text{
+  position: absolute;
+  width: 18%;
+  padding-left: 25%;
+  padding-top: 150px;
+}
+.install-btn{
+  background: rgb(49,68,88);
+}
+.forklift{
+  position:absolute;
+}
+
+#building{
+  background: white;
+  width: 100%;
+}
+.building-heading{
+  display: flex;
+  flex-flow: column;
+}
+.heading{
+  color: rgb(83,88,98);
+  margin: 0 auto;
+}
+.secondary{
+  color: rgb(135,145,156);
+  margin: 0 auto;
+}
+.link{ 
+  color: rgb(208,74,73);
+  text-decoration: none;
+}
+.building-articles{
+  width: 450px;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+.col{
+  float: left;
+  display:flex;
+  flex-flow: column;
+  width: 100px;
+}
+.col-mid{
+  margin: 0 5% 0 5%;
+}
+.col-3{
+  box-sizing: content-box;
+  width: 30%;
+}
