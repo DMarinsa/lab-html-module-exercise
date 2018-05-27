@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>npm</title>
 </head>
 <body>
@@ -25,16 +26,25 @@
 	<header>
 		<div class="search-container">
 			<img src="./images/npm-logo.png" alt="logo-npm" class="npm-logo  search-bar-item" />
-			<input type="text" placeholder="find packages" class="search-bar search-bar-item">
-			<p class="search-bar-item sign-up"><a href="#" class="header-link">Sign up</a> or <a href="#" class="header-link">log in</a></p>
-			<img src="./images/bear-logo.png" alt="bear-logo" id="bear-logo search-bar-item"/>
+			<form class="search-bar-container">
+				<input type="text" placeholder="find packages" class="search-bar search-bar-item">
+				<button type="submit" class="search-button"><i class="fa fa-search"></i></button>
+			</form>
+			<div class= "search-container-sign">
+			<p class="search-bar-item sign-up"><a href="#" class="header-link">Sign up</a> or 
+				<a href="#" class="header-link">log in</a></p>
+			<img src="./images/bear-logo.png" alt="bear-logo"/>
 		</div>
-		<div class="container">
-		<h1 class="header-item">Build Amazing Things</h1>
-		<h4 class="header-item">npm is the package manager for JavaScript and the world's largest
-			 software registry. Discover packages of reusable code &mdash; and
-			 assemble them in powerful new ways.</h4>
-		<a href="#" class="btn sign-up-btn header-item">Sign up for npm</a>
+		</div>
+		<div class="clearfix"></div>
+		<div class="container header-text">
+			<div class="header-container-text">
+				<h1 class="header-item">Build Amazing Things</h1>
+				<h4 class="header-item">npm is the package manager for JavaScript and the world's 
+					largest software registry. Discover packages of reusable code &mdash; and
+					assemble them in powerful new ways.</h4>
+				<a href="#" class="btn sign-up-btn header-item">Sign up for npm</a>
+			</div>
 		</div>
 	</header>
 	<section id="collaboration" class="collab-background">
@@ -75,7 +85,8 @@
 			<article class="col col-3">
 				<img src="./images/binoculars.svg" class="round-image"/>
 				<h2>Find</h2>
-				<p>Libraries like <a href="#" class="link">JQuery</a>, <a href="#" class="link">Bootstrap</a>,
+				<p>Libraries like <a href="#" class="link">JQuery</a>, 
+					<a href="#" class="link">Bootstrap</a>,
 					<a href="#" class="link">React</a>, and <a href="#" class="link">Angular</a>, and
 					components from framework such as <a href="#" class="link">Ember</a></p>
 			</article>
